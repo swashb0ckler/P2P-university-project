@@ -7,12 +7,12 @@ A **Peer to Peer** golang implementation running a ledger using RSA signatures f
 </p>
 
 
-##How it Works
+## How it Works
 A peer can join the network and connect to the others peers already available. When a peer is started it connects to another peer (if there is one) and gets their peer list whereafter they mass connect to everyone in the network. Each peer is thus on entry into the network connecting to all other peers and these are connecting back. The peers are using Go routines to listen concurrently for new peers on the network as well as waiting for new transactions. 
 
 Transactions are flooded so every peer will have the same version of the ledger and idea of which accounts have what stored. Furthermore, the transactions are signed, so only the account which is authorized to make a transaction can make a transaction. 
 
-##Try It out 
+## Try It out 
 
 Run the **go test** and the if the ledgers are identical and if the accounts have the right amount after making signed transactions 
 
