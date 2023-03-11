@@ -3,8 +3,9 @@
 A **Peer to Peer** golang implementation running a ledger using RSA signatures for authenticated transactions.  In order to use it run the TestLedger(), ignore the console logs and instead see if the accounts have the right amount after being flooded. 
 
 <p align="center">
-<img width="300px" src="https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"/>
+<img width="300px" src="https://live.staticflickr.com/65535/52739949837_895a5ad614_k.jpg"/>
 </p>
+
 
 
 ## How it Works
